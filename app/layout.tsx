@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Teko } from "next/font/google";
+import { Oswald } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
 
-const teko = Teko({ subsets: ["latin"] });
+const oswald = Oswald({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ТК Кентавър",
@@ -16,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="bg">
-      <body className={teko.className}>
+    <html lang="en">
+      <body className={oswald.className}>
         <Navbar />
         {children}
       </body>
