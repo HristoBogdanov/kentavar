@@ -1,3 +1,4 @@
+import ContactUsSection from "@/components/contactUsSection";
 import Hero from "@/components/hero";
 import HomeGrid from "@/components/homeGrid";
 import NumbersSection from "@/components/numbersSection";
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <HomeGrid />
       <NumbersSection />
+      <ContactUsSection />
     </main>
   );
 }
