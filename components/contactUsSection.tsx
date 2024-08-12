@@ -7,7 +7,7 @@ export default function ContactUsSection() {
         style={{ backgroundImage: `url('hero1.jpg')` }}
         className="z-0 h-full min-h-[500px] w-full bg-cover bg-center"
       ></div>
-      <div className="flex flex-col justify-center gap-10 p-6 md:p-14 lg:p-20 xl:p-40 bg-black text-white">
+      <div className="flex flex-col justify-center gap-10 px-6 py-14 md:p-14 lg:p-20 xl:p-40 bg-black text-white">
         <div className="flex flex-col ">
           <h1 className="uppercase text-5xl font-black">
             <span className="text-red-800">свържи се </span>с нас.
@@ -24,7 +24,7 @@ export default function ContactUsSection() {
         </p>
         <Link
           href="/contacts"
-          className="p-4 bg-red-800 text-white border-2 border-red-800 w-fit transition-all hover:text-red-800 duration-500 hover:bg-white"
+          className="p-4 text-xl bg-red-800 text-white border-2 border-red-800 w-fit transition-all hover:text-red-800 duration-500 hover:bg-white"
         >
           КОНТАКТИ
         </Link>

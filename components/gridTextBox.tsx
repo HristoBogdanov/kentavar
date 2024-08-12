@@ -29,7 +29,7 @@ export default function GridTextBox({
   return (
     <div
       style={{ backgroundColor: color }}
-      className="h-[500px] w-full p-6 text-white flex items-center"
+      className="h-[400px] lg:h-[500px] w-full p-6 text-white flex items-center"
     >
       <div className="flex flex-col w-full justify-start gap-2">
         <h2 className="uppercase font-bold pb-6 text-2xl lg:text-3xl">
