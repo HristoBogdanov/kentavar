@@ -20,7 +20,7 @@ export default function Hero() {
         className="z-0 h-[70vh] lg:h-[100vh] w-full bg-cover bg-center flex flex-col justify-center items-center"
       >
         <div className="w-[90%] max-w-[592px] aspect-[1.78/1] border-t-[5px] border-b-[5px] border-red-800">
-          <NextVideo src={sample} className="w-full h-full" />
+          <NextVideo src={sample} accentColor="#991b1b" className="w-full" />
         </div>
       </div>
     </div>
