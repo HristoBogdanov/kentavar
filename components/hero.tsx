@@ -1,3 +1,6 @@
+import NextVideo from "next-video";
+import sample from "@/videos/sample.mp4";
+
 export default function Hero() {
   return (
     <div className="w-full grid grid-cols-1 lg:grid-cols-2">
@@ -14,8 +17,12 @@ export default function Hero() {
 
       <div
         style={{ backgroundImage: `url('hero2.jpg')` }}
-        className="z-0 h-[70vh] lg:h-[100vh] w-full bg-cover bg-center"
-      ></div>
+        className="z-0 h-[70vh] lg:h-[100vh] w-full bg-cover bg-center flex flex-col justify-center items-center"
+      >
+        <div className="w-[592px] h-[332px] border-t-[5px] border-b-[5px] border-red-800">
+          <NextVideo src={sample} className="w-full h-full" />
+        </div>
+      </div>
     </div>
   );
 }

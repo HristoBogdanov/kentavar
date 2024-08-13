@@ -7,11 +7,9 @@ export default function HomeGrid() {
   return (
     <div className="w-full flex flex-col bg-black justify-center items-center pt-14 gap-14">
       <div className="flex justify-center items-center gap-6 px-6">
-        <GiBlackBelt className="text-white text-4xl lg:text-6xl" />
         <h1 className="text-4xl lg:text-6xl uppercase text-white text-center w-fit font-black">
           нашите <span className="text-red-800">тренировки</span>
         </h1>
-        <GiBlackBelt className="text-white text-4xl lg:text-6xl" />
       </div>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <GridTextBox

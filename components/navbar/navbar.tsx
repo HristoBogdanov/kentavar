@@ -28,8 +28,8 @@ export default function Navbar() {
         <span></span>
       </div>
       <div
-        className={`w-full overflow-hidden h-screen transition-all ease-in-out duration-500 absolute top-0 left-0 z-10 bg-[#101010] flex flex-col justify-center items-center ${
-          isOpen ? "opacity-100" : "opacity-0"
+        className={`w-full overflow-hidden h-screen transition-all ease-in-out duration-500 absolute top-0 left-0 bg-[#101010] flex flex-col justify-center items-center ${
+          isOpen ? "opacity-100 z-10" : "opacity-0 -z-10"
         }`}
       >
         <ul className="flex flex-col container lg:ml-40 gap-6 lg:gap-8 w-full p-6 text-white uppercase text-[13vw] md:text-[3.5vw] font-black">
