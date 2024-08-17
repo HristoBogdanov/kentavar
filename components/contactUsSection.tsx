@@ -4,7 +4,7 @@ export default function ContactUsSection() {
   return (
     <div className="w-full grid grid-cols-1 md:grid-cols-2">
       <div
-        style={{ backgroundImage: `url('hero1.jpg')` }}
+        style={{ backgroundImage: `url('lubo3.jpg')` }}
         className="z-0 h-full min-h-[500px] w-full bg-cover bg-center"
       ></div>
       <div className="flex flex-col justify-center gap-10 px-6 py-14 md:p-14 lg:p-20 xl:p-40 bg-black text-white">

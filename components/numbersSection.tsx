@@ -15,8 +15,8 @@ export default function NumbersSection() {
         </div>
       </div>
       <div
-        style={{ backgroundImage: `url('hero1.jpg')` }}
-        className="z-0 h-full min-h-[500px] w-full bg-cover bg-center"
+        style={{ backgroundImage: `url('group.jpeg')` }}
+        className="z-0 h-full min-h-[500px] w-full bg-cover bg-center bg-black opacity-100"
       ></div>
     </div>
   );
