@@ -87,6 +87,7 @@ export default function Footer() {
               <li>Николай Богданов</li>
               <li>Любомир Богданов</li>
               <li>Христо Богданов</li>
+              <li>Любомир Събчев</li>
             </ul>
           </div>
         </div>

@@ -24,7 +24,7 @@ export default function ContactUsSection() {
         </p>
         <Link
           href="/contacts"
-          className="p-4 text-xl bg-red-800 text-white border-2 border-red-800 w-fit transition-all hover:text-red-800 duration-500 hover:bg-white"
+          className="py-4 px-8 text-xl bg-red-800 text-white border-2 border-red-800 w-fit transition-all hover:text-red-800 duration-500 hover:bg-white"
         >
           КОНТАКТИ
         </Link>
