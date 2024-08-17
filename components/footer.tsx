@@ -8,7 +8,7 @@ import { kazanlakHallMap, ovoshtnikHallMap } from "@/utils/mapsLinks";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#101010]">
+    <footer className="w-full bg-softBlack">
       <div className="container mx-auto text-white gap-y-20 max-md:px-10 py-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border-b border-white">
         <div className="flex flex-col lg:items-center uppercase">
           <div className="flex flex-col gap-10">

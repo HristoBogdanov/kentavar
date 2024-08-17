@@ -24,7 +24,7 @@ export default function NavbarItem({ path, text, onClickFunction }: Props) {
             ? "#991B1B"
             : "",
         }}
-        className="border-l-[10px] pl-4 border-[#101010] hover:border-red-800 transition-all duration-500"
+        className="border-l-[10px] pl-4 border-softBlack hover:border-red-800 transition-all duration-500"
         onClick={onClickFunction}
       >
         <Link href={path}>{text}</Link>
