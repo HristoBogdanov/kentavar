@@ -17,10 +17,8 @@ export default function ContactUsSection() {
           </h1>
         </div>
         <p className="text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          Очакваме Вас и вашите деца. Нека спортът бъде част от нашия и вашия
+          начин на живот!
         </p>
         <Link
           href="/contacts"
