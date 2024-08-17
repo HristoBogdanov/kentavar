@@ -1,6 +1,7 @@
-import NextVideo from "next-video";
-import video2 from "@/videos/video2.mp4";
+"use client";
+
 import Link from "next/link";
+import ReactPlayer from "react-player";
 
 export default function Hero() {
   return (
@@ -39,8 +40,14 @@ export default function Hero() {
           className="absolute inset-0 z-[-1] grayscale bg-cover bg-center"
           style={{ backgroundImage: `url('ico.jpeg')` }}
         />
-        <div className="relative w-[90%] max-w-[592px] aspect-[1.78/1] border-t-[5px] border-b-[5px] border-red-800">
-          <NextVideo src={video2} accentColor="#991b1b" className="w-full" />
+        <div className="relative w-[90%] max-w-[700px] aspect-[1.78/1] border-t-[5px] border-b-[5px] border-red-800">
+          <ReactPlayer
+            url={"/videos/video2.mp4"}
+            width={"100%"}
+            height={"100%"}
+            controls
+            loop
+          />
         </div>
       </div>
     </div>
