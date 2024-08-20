@@ -1,13 +1,17 @@
 import Link from "next/link";
+import SlideInFromLeft from "./animations/slideInFromLeft";
+import SlideInFromRight from "./animations/slideInFromRight";
 
 export default function ContactUsSection() {
   return (
     <div className="w-full grid grid-cols-1 md:grid-cols-2">
-      <div
-        style={{ backgroundImage: `url('lubo3.jpg')` }}
-        className="z-0 h-full min-h-[500px] w-full bg-cover bg-center"
-      ></div>
-      <div className="flex flex-col justify-center gap-10 px-6 py-14 md:p-14 lg:p-20 xl:p-40 bg-black text-white">
+      <SlideInFromLeft classes="">
+        <div
+          style={{ backgroundImage: `url('lubo3.jpg')` }}
+          className="z-0 h-full min-h-[500px] w-full bg-cover bg-center"
+        ></div>
+      </SlideInFromLeft>
+      <SlideInFromRight classes="flex flex-col justify-center gap-10 px-6 py-14 md:p-14 lg:p-20 xl:p-40 bg-black text-white">
         <div className="flex flex-col ">
           <h1 className="uppercase text-5xl font-black">
             <span className="text-red-800">свържи се </span>с нас.
@@ -25,7 +29,7 @@ export default function ContactUsSection() {
         >
           КОНТАКТИ
         </Link>
-      </div>
+      </SlideInFromRight>
     </div>
   );
 }

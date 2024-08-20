@@ -2,10 +2,11 @@
 
 import Link from "next/link";
 import ReactPlayer from "react-player";
+import SlideInFromBottom from "./animations/slideInFromBottom";
 
 export default function Hero() {
   return (
-    <div className="w-full grid grid-cols-1 lg:grid-cols-2">
+    <SlideInFromBottom classes="w-full grid grid-cols-1 lg:grid-cols-2">
       <div className="w-full h-[70vh] lg:h-[100vh] flex flex-col justify-center items-center">
         <div className="flex flex-col w-full h-full p-6 py-[23px] text-white justify-center bg-softBlack max-md:pt-16 uppercase text-[13vw] leading-[13vw] lg:text-[5vw] md:pl-20 gap-3 lg:leading-[5vw] font-black">
           <h1>Таекуондо клуб</h1>
@@ -50,6 +51,6 @@ export default function Hero() {
           />
         </div>
       </div>
-    </div>
+    </SlideInFromBottom>
   );
 }
