@@ -15,6 +15,7 @@ export default function Navbar() {
 
   const closeMenu = () => {
     setIsOpen(false);
+    setOpenClass("");
   };
 
   return (
