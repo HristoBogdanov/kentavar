@@ -17,8 +17,7 @@ export default function ContactUsSection() {
           </h1>
         </div>
         <p className="text-xl">
-          Очакваме Вас и вашите деца. Нека спортът бъде част от нашия и вашия
-          начин на живот!
+          Очакваме Ви! Нека спортът бъде част от нашия и вашия начин на живот!
         </p>
         <Link
           href="/contacts"

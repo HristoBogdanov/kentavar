@@ -8,10 +8,10 @@ export default function NumbersSection() {
           Нашата <span className="text-red-800">история</span> в цифри
         </h1>
         <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-10 px-6">
-          <StatisticBox number="50" text="състезателя" />
-          <StatisticBox number="30" text="отборни награди" />
-          <StatisticBox number="4" text="европейски медалисти" />
-          <StatisticBox number="3" text="участници на световно" />
+          <StatisticBox number={50} text="състезателя" />
+          <StatisticBox number={30} text="отборни награди" />
+          <StatisticBox number={4} text="европейски медалисти" />
+          <StatisticBox number={3} text="участници на световно" />
         </div>
       </div>
       <div
