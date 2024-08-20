@@ -5,7 +5,7 @@ import StatisticBox from "./statisticBox";
 export default function NumbersSection() {
   return (
     <div className="w-full grid grid-cols-1 md:grid-cols-2">
-      <div className="flex flex-col justify-center items-center gap-10 py-20 lg:py-40 bg-black text-white">
+      <div className="flex flex-col justify-center items-center gap-10 py-20 lg:py-40 bg-black border-b-8 border-t-8 border-red-800 text-white">
         <FadeIn>
           <h1 className="uppercase text-5xl text-center font-black px-6">
             Нашата <span className="text-red-800">история</span> в цифри

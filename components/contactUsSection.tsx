@@ -11,7 +11,7 @@ export default function ContactUsSection() {
           className="z-0 h-full min-h-[500px] w-full bg-cover bg-center"
         ></div>
       </SlideInFromLeft>
-      <SlideInFromRight classes="flex flex-col justify-center gap-10 px-6 py-14 md:p-14 lg:p-20 xl:p-40 bg-black text-white">
+      <SlideInFromRight classes="flex flex-col justify-center gap-10 px-6 py-14 md:p-14 lg:p-20 xl:p-40 bg-black border-b-8 border-t-8 border-red-800 text-white">
         <div className="flex flex-col ">
           <h1 className="uppercase text-5xl font-black">
             <span className="text-red-800">свържи се </span>с нас.
