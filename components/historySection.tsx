@@ -8,7 +8,7 @@ const para1 =
 
 export default function HistorySection() {
   return (
-    <div className="w-full flex flex-col lg:gap-20 pb-20 lg:pb-32">
+    <div className="w-full flex flex-col lg:gap-20">
       <Heading firstTitle="нашата" secondTitle="история" />
       <HistoryParagraph imagePath="lubo3.jpg" text={para1} />
       <HistoryReverseParagraph imagePath="lubo3.jpg" text={para1} />

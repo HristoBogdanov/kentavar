@@ -8,7 +8,7 @@ import TrainingCentre from "./trainingCentre";
 
 export default function TrainingCentresSction() {
   return (
-    <div className="w-full flex flex-col gap-10 lg:gap-20 pt-10 lg:pt-20">
+    <div className="w-full flex flex-col gap-10 lg:gap-20">
       <Heading firstTitle="нашите" secondTitle="зали" />
       <TrainingCentre
         title="Зала в гр. Казанлък"

@@ -9,7 +9,7 @@ import Heading from "./heading";
 
 export default function HomeGrid() {
   return (
-    <div className="w-full flex flex-col bg-black justify-center items-center pt-14 gap-14">
+    <div className="w-full flex flex-col bg-black justify-center items-center gap-14">
       <Heading firstTitle="нашите" secondTitle="тренировки" />
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <SlideInFromLeft classes="flex w-full flex-col md:flex-row col-span-2">
