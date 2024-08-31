@@ -26,12 +26,12 @@ export default function Footer() {
               >
                 за нас
               </Link>
-              <Link
+              {/* <Link
                 className="hover:text-red-800 transition-all duration-500"
                 href="news"
               >
                 новини
-              </Link>
+              </Link> */}
               <Link
                 className="hover:text-red-800 transition-all duration-500"
                 href="contacts"

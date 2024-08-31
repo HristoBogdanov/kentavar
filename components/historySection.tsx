@@ -1,17 +1,46 @@
 import React from "react";
 import HistoryParagraph from "./historyParagraph";
-import HistoryReverseParagraph from "./historyReverseParagraph";
 import Heading from "./heading";
+import HistoryList from "./historyList";
+import HistoryReverseList from "./historyReverseList";
+import HistoryReverseParagraph from "./historyReverseParagraph";
 
 const para1 =
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud xercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Lorem ipsum dolor sit ametconsectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudxercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud xercitation ullamco laboris nisi utaliquip ex ea commodo consequat. Lorem ipsum dolor sit ametconsectetur adipisicing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostruxercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud xercitation ullamco laboris nisi utaliquip ex ea commodo consequat.";
+  "СК по таекуондо „Кентавър“ е основан на 07.01.2000г. Председател на клуба е Николай Богданов – бивш национален състезател, бронзов медалист от балканиада и носител на 2-ри дан по таекуондо. През годините, през клуба са минали повече от 2000 деца на различна възраст. През 2005г., освен таекуондо, в клуба започва провеждането на тренировки по ТАЕ-БО - аеробика, с хореография от таекуондо, бокс и елементи от гимнастиката. С годините не закъсняват и успешните представяния на състезателите от клуба. Запомнящи се ще останат имената на Диана Първанова – медалист от държавни и международни състезания, национален състезател, а по-късно и международен съдия. Любомир Събчев и Първан Първанов също се нареждат до изявените състезатели.";
+
+const achievementList = [
+  "Европейска титла на Цветелина Николова за кадети през 2013 г.",
+  "Бронзов медал на Христо Богданов за кадети през 2017 г.",
+  "Пето място на Любомир Богданов на Световното първенство 2018 г.",
+  "Европейска титла на Христо Богданов за юноши и вицеевропейска титла на Любомир Богданов през 2019 г.",
+  "Бронзов медал на Илина Иванова от Европейско първенство за жени през 2021 г.",
+  "Пето място на Любомир Богданов на Европейските олимпийски игри за мъже през 2023 г.",
+  "Престижните звания „Треньор на годината“ за председателя на клуба Николай Богданов през …… г., а „Спортисти на годината“ са Цветелина Николова (2013 г.), Любомир Богданов (2018 г.) и Илина Иванова (2021 г.).",
+  "Христо Богданов е избран за най-успешен състезател по таекуондо на България през 2019 г.",
+];
+
+const para2 =
+  "Таекуондото е не само красиво бойно изкуство, но и средство за възпитание и самоусъвършенстване на физически и морално-волеви качества. Деца от 5-6 годишна възраст и нагоре могат да намерят място в клуба. Материалната база е едно от многото неща, с които се гордеем. Тя включва професионални настилки за игра, боксови чували, щитове, педели, манекени за тренировка и фитнес уреди. Помещенията са оборудвани с климатична система за оптимална температура за тренировка. Разполагаме с две добре оборудвани зали – в с. Овощник и гр. Казанлък. Но нашият най-голям актив са треньорите: Николай Богданов, Любомир Богданов, Христо Богданов и Любомир Събчев.";
+
+const para3 =
+  "Тренировъчните занимания се провеждат целогодишно, без прекъсване, като през летните месеци занятията протичат на открито под формата на бегови упражнения, спортни игри и плуване за по-големите състезатели. Целите, които си поставяме от клуб „Кентавър“, са да бъдем максимално полезни на децата и родителите, като на първо място е изграждането на дисциплина и постоянство в тренировките, както и воденето на здравословен начин на живот, който включва повече движение и правилно хранене.";
+
+const para4 =
+  "Ние се стремим да мотивираме най-трудолюбивите и амбициозни деца да участват в състезания от годишния спортен календар. Всяка година се провеждат по два изпита за степени – „гум“ или „дан“, което е важна част от развитието на нашите състезатели. Добрият колектив и тренировките създават отлична среда за Вашето дете да расте хармонично и да придобива ценни качества, които да допринесат за неговото личностно развитие. В клуб „Кентавър“ знаем как да оправдаем Вашето доверие и заедно да бъдем пример за хората около нас. Всяко ново дете е добре дошло при нас, независимо от месеца на записване, като първите му тренировки ще бъдат адаптирани към групата и съобразени с възрастта и моментното му физическо състояние. За дамите, които искат да подобрят своята физическа форма, да разпуснат и същевременно да се заредят емоционално, предлагаме ТАЕ-БО тренировки на музика с много настроение, водени от инструктора Любомир Богданов. Очакваме Ви! Нека спортът бъде част от нашия и Вашия начин на живот!";
 
 export default function HistorySection() {
   return (
     <div className="w-full flex flex-col lg:gap-20">
       <Heading firstTitle="нашата" secondTitle="история" />
       <HistoryParagraph imagePath="lubo3.jpg" text={para1} />
-      <HistoryReverseParagraph imagePath="lubo3.jpg" text={para1} />
+      <HistoryReverseList
+        imagePath="lubo3.jpg"
+        text="Най-запомнящите се постижения за клуба са:"
+        list={achievementList}
+      />
+      <HistoryParagraph imagePath="lubo3.jpg" text={para2} />
+      <HistoryReverseParagraph imagePath="lubo3.jpg" text={para3} />
+      <HistoryParagraph imagePath="lubo3.jpg" text={para4} />
     </div>
   );
 }

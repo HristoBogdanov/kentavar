@@ -1,6 +1,7 @@
 import {
   kazanlakHallMap,
   kazanlakMapsApi,
+  ovoshtnikHallMap,
   ovoshtnikMapsApi,
 } from "@/utils/mapsLinks";
 import Heading from "./heading";
@@ -13,13 +14,15 @@ export default function TrainingCentresSction() {
       <TrainingCentre
         title="Зала в гр. Казанлък"
         addressText="жк. Васил Левски, ж.к. Васил Левски 40А, 6103 Казанлък"
-        addressLink={kazanlakMapsApi}
+        addressIframeLink={kazanlakMapsApi}
+        addressMapsLink={kazanlakHallMap}
         image="/lubo3.jpg"
       />
       <TrainingCentre
         title="Зала в с. Овощник"
         addressText="ул. Жельо Манолов 58, 6138 Овощник"
-        addressLink={ovoshtnikMapsApi}
+        addressIframeLink={ovoshtnikMapsApi}
+        addressMapsLink={ovoshtnikHallMap}
         image="/lubo3.jpg"
       />
     </div>

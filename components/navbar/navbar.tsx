@@ -40,7 +40,7 @@ export default function Navbar() {
             text="за нас"
             onClickFunction={closeMenu}
           />
-          <NavbarItem path="news" text="новини" onClickFunction={closeMenu} />
+          {/* <NavbarItem path="news" text="новини" onClickFunction={closeMenu} /> */}
           <NavbarItem
             path="contacts"
             text="контакти"

@@ -12,7 +12,7 @@ export default function NumbersSection() {
           </h1>
         </FadeIn>
         <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-10 px-6">
-          <StatisticBox number={50} text="състезателя" />
+          <StatisticBox number={50} text="състезатели" />
           <StatisticBox number={30} text="отборни награди" />
           <StatisticBox number={4} text="европейски медалисти" />
           <StatisticBox number={3} text="участници на световно" />
