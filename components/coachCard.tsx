@@ -15,7 +15,7 @@ export default function coachCard({ name, desc, imagePath, delay }: Props) {
       className="w-full flex flex-col justify-center items-center border-t-8 border-b-8 border-red-800 bg-softBlack"
     >
       <div
-        className="w-full aspect-[4/5] bg-cover bg-center"
+        className="w-full aspect-[4/5] bg-cover bg-top"
         style={{ backgroundImage: `url('${imagePath}')` }}
       ></div>
       <div className="flex flex-col w-full max-sm:h-fit max-xl:350px h-[500px] max-xl:justify-center 2xl:h-[350px] 2xl:justify-center p-6 gap-10 items-center text-white">

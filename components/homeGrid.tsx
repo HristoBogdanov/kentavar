@@ -13,7 +13,7 @@ export default function HomeGrid() {
       <Heading
         firstTitle="нашите"
         secondTitle="тренировки"
-        classes="pt-10 lg:pt-20"
+        classes="pt-10 lg:pt-20 lg:pb-20"
       />
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <SlideInFromLeft classes="flex w-full flex-col md:flex-row col-span-2">
@@ -27,7 +27,7 @@ export default function HomeGrid() {
             locationLink={kazanlakHallMap}
             color="#991B1B"
           />
-          <GridImage imageUrl="hero1.jpg" />
+          <GridImage imageUrl="presi.jpg" />
         </SlideInFromLeft>
         <SlideInFromRight classes="flex w-full flex-col md:flex-row col-span-2">
           <GridTextBox
@@ -40,7 +40,7 @@ export default function HomeGrid() {
             locationLink={kazanlakHallMap}
             color="#991B1B"
           />
-          <GridImage imageUrl="hero1.jpg" />
+          <GridImage imageUrl="lubo4.jpg" />
         </SlideInFromRight>
         <SlideInFromLeft classes="flex w-full flex-col md:flex-row col-span-2">
           <GridTextBox
@@ -53,7 +53,7 @@ export default function HomeGrid() {
             locationLink={ovoshtnikHallMap}
             color="#101010"
           />
-          <GridImage imageUrl="hero1.jpg" />
+          <GridImage imageUrl="marina_presi.jpg" />
         </SlideInFromLeft>
         <SlideInFromRight classes="flex w-full flex-col md:flex-row col-span-2">
           <GridTextBox

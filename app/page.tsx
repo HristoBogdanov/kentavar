@@ -2,7 +2,6 @@ import ContactUsSection from "@/components/contactUsSection";
 import Hero from "@/components/hero";
 import HomeGrid from "@/components/homeGrid";
 import NumbersSection from "@/components/numbersSection";
-import Image from "next/image";
 
 export default function Home() {
   return (
