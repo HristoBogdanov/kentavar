@@ -11,16 +11,16 @@ export default function ContactsSection() {
   return (
     <SlideInFromBottom classes="w-full grid grid-cols-1 lg:grid-cols-2">
       <div className="w-full h-fit max-lg:py-20 lg:h-[100vh] flex flex-col justify-center items-center">
-        <div className="flex flex-col text-white px-10 lg:px-20 gap-10 lg:gap-20">
+        <div className="flex flex-col text-white px-10 lg:px-20 gap-10">
           <div className="w-full flex flex-col">
-            <h1 className="font-black uppercase text-7xl">
+            <h1 className="font-black uppercase text-6xl">
               <span className="text-red-800">свържи се </span>с нас.
             </h1>
-            <h1 className="font-black uppercase text-7xl">
+            <h1 className="font-black uppercase text-6xl">
               стани <span className="text-red-800">шампион.</span>
             </h1>
           </div>
-          <p className="text-2xl text-white">
+          <p className="text-xl text-white">
             СК по таекуондо „Кентавър“ е клуб с дългогодишни традиции и
             множество успехи, където дисциплината, постоянството и стремежът към
             самоусъвършенстване са в основата на нашите тренировки. С опитни
@@ -34,7 +34,7 @@ export default function ContactsSection() {
           </p>
           <div className="flex flex-col max-lg:gap-2 lg:flex-row w-full justify-between">
             <div className="flex flex-col gap-10">
-              <ul className="text-2xl flex flex-col gap-2">
+              <ul className="text-xl flex flex-col gap-2">
                 <Link
                   href="tel: 0899920506"
                   className="flex items-center gap-3 hover:text-red-800 transition-all duration-500"
@@ -70,7 +70,7 @@ export default function ContactsSection() {
               </ul>
             </div>
             <div className="flex flex-col gap-10">
-              <ul className="text-2xl flex flex-col gap-2">
+              <ul className="text-xl flex flex-col gap-2">
                 <Link
                   href={kazanlakHallMap}
                   className="flex items-center gap-3 hover:text-red-800 transition-all duration-500"
