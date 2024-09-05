@@ -45,7 +45,7 @@ export default function Hero() {
             className="absolute inset-0 z-[-1] grayscale bg-cover bg-center"
             style={{ backgroundImage: `url('ico.jpeg')` }}
           />
-          <div className="relative w-[90%] max-w-[700px] aspect-[1.78/1] border-t-[5px] border-b-[5px] border-red-800">
+          {/* <div className="relative w-[90%] max-w-[700px] aspect-[1.78/1] border-t-[5px] border-b-[5px] border-red-800">
             <ReactPlayer
               url={"/videos/video2.mp4"}
               width={"100%"}
@@ -55,7 +55,7 @@ export default function Hero() {
               playing
               muted
             />
-          </div>
+          </div> */}
         </div>
       </SlideInFromBottom>
     </ClientOnly>
