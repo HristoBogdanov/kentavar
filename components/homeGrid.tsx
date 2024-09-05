@@ -66,7 +66,7 @@ export default function HomeGrid() {
             locationLink={ovoshtnikHallMap}
             color="#101010"
           />
-          <GridImage imageUrl="hero1.jpg" />
+          <GridImage imageUrl="tae-bo.jpg" />
         </SlideInFromRight>
       </div>
     </div>

@@ -16,7 +16,7 @@ export default function TrainingCentresSction() {
         addressText="жк. Васил Левски, ж.к. Васил Левски 40А, 6103 Казанлък"
         addressIframeLink={kazanlakMapsApi}
         addressMapsLink={kazanlakHallMap}
-        image="/ovoshtnikHall.jpg"
+        image="/hallKazanlak.jpg"
       />
       <TrainingCentre
         title="Зала в с. Овощник"

@@ -36,7 +36,7 @@ export default function coachesSection() {
         <CoachCard
           name="Николай Богданов"
           desc={nikiDesc}
-          imagePath="/lubo3.jpg"
+          imagePath="/nikiBogdanov.jpg"
           delay={0.25}
         ></CoachCard>
         <CoachCard
