@@ -10,7 +10,7 @@ export default function ContactUsSection() {
           style={{
             backgroundImage: `url('Любомир-Богданов-Европейска-Олимпияда.jpg')`,
           }}
-          className="z-0 h-full min-h-[500px] w-full bg-cover bg-center"
+          className="z-0 h-full min-h-[500px] w-full bg-cover bg-left"
         ></div>
       </SlideInFromLeft>
       <SlideInFromRight classes="flex flex-col justify-center gap-10 px-6 py-14 md:p-14 lg:p-20 xl:p-40 bg-black border-b-8 border-t-8 border-red-800 text-white">
