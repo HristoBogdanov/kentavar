@@ -36,25 +36,25 @@ export default function coachesSection() {
         <CoachCard
           name="Николай Богданов"
           desc={nikiDesc}
-          imagePath="/nikiBogdanov.jpg"
+          imagePath="/Треньор-Николай-Богданов.jpg"
           delay={0.25}
         ></CoachCard>
         <CoachCard
           name="Любомир Богданов"
           desc={luboBDesc}
-          imagePath="/lubo3.jpg"
+          imagePath="/Треньор-Любомир-Богданов.jpg"
           delay={0.5}
         ></CoachCard>
         <CoachCard
           name="Христо Богданов"
           desc={icoDesc}
-          imagePath="/lubo3.jpg"
+          imagePath="/Треньор-Христо-Богданов.jpg"
           delay={0.75}
         ></CoachCard>
         <CoachCard
           name="Любомир Събчев"
           desc={luboSDesc}
-          imagePath="/lubo_s.jpg"
+          imagePath="/Треньор-Любомир-Събчев.jpg"
           delay={1}
         ></CoachCard>
       </div>

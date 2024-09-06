@@ -23,12 +23,14 @@ export default function TrainingCentre({
         <Link
           href={addressMapsLink}
           className="text-center text-3xl transition-all duration-500 hover:text-red-800"
+          target="_blank"
         >
           {title}
         </Link>
         <Link
           href={addressMapsLink}
           className="text-center transition-all duration-500 hover:text-red-800"
+          target="_blank"
         >
           {addressText}
         </Link>

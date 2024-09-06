@@ -13,17 +13,17 @@ export default function TrainingCentresSction() {
       <Heading classes="pb-0 lg:pb-10" firstTitle="нашите" secondTitle="зали" />
       <TrainingCentre
         title="Зала в гр. Казанлък"
-        addressText="жк. Васил Левски, ж.к. Васил Левски 40А, 6103 Казанлък"
+        addressText="ж.к. Васил Левски 40А, 6103 Казанлък"
         addressIframeLink={kazanlakMapsApi}
         addressMapsLink={kazanlakHallMap}
-        image="/hallKazanlak.jpg"
+        image="/Зала-град-Казанлък.jpg"
       />
       <TrainingCentre
         title="Зала в с. Овощник"
         addressText="ул. Жельо Манолов 58, 6138 Овощник"
         addressIframeLink={ovoshtnikMapsApi}
         addressMapsLink={ovoshtnikHallMap}
-        image="/ovoshtnikHall.jpg"
+        image="/Зала-село-Овощник.jpg"
       />
     </div>
   );

@@ -95,7 +95,7 @@ export default function ContactsSection() {
       <div className="relative z-0 h-[70vh] lg:h-[100vh] w-full flex flex-col justify-center items-center">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url('turbo.jpg')` }}
+          style={{ backgroundImage: `url('Клуб-Кентавър-Turbo-Trophy.jpg')` }}
         />
       </div>
     </SlideInFromBottom>

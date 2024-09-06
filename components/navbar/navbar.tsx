@@ -20,16 +20,18 @@ export default function Navbar() {
 
   return (
     <>
-      <div id="nav-icon2" className={openClass} onClick={() => handleClick()}>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+      <div className="bg-softBlack w-fit fixed top-0 right-0 z-20 p-3 lg:p-5">
+        <div id="nav-icon2" className={openClass} onClick={() => handleClick()}>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </div>
       <div
-        className={`w-full overflow-hidden h-screen transition-all ease-in-out duration-500 absolute top-0 left-0 bg-softBlack flex flex-col justify-center items-center ${
+        className={`w-full overflow-hidden h-screen transition-all ease-in-out duration-500 fixed top-0 left-0 right-0 bottom-0 bg-softBlack flex flex-col justify-center items-center ${
           isOpen ? "opacity-100 z-10" : "opacity-0 -z-10"
         }`}
       >

@@ -1,10 +1,8 @@
 import { kazanlakHallMap, ovoshtnikHallMap } from "@/utils/mapsLinks";
 import GridImage from "./gridImage";
 import GridTextBox from "./gridTextBox";
-import { GiBlackBelt } from "react-icons/gi";
 import SlideInFromLeft from "./animations/slideInFromLeft";
 import SlideInFromRight from "./animations/slideInFromRight";
-import SlideInFromBottom from "./animations/slideInFromBottom";
 import Heading from "./heading";
 
 export default function HomeGrid() {
@@ -19,54 +17,50 @@ export default function HomeGrid() {
         <SlideInFromLeft classes="flex w-full flex-col md:flex-row col-span-2">
           <GridTextBox
             title="Таекуондо - начинаещи"
-            timetable="понделник, сряда и петък"
-            time="17:00 - 18:00"
-            price="60 лв. / месец"
+            timetable="понделник и сряда / вторник и четвъртък"
+            time="18:00 - 19:00"
             coach="Николай Богданов"
             location='Казанлък, ОДК "Св. Иван Рилски"'
             locationLink={kazanlakHallMap}
             color="#991B1B"
           />
-          <GridImage imageUrl="presi.jpg" />
+          <GridImage imageUrl="Пресияна-Събчева.jpg" />
         </SlideInFromLeft>
         <SlideInFromRight classes="flex w-full flex-col md:flex-row col-span-2">
           <GridTextBox
             title="Таекуондо - напреднали"
-            timetable="понделник, сряда и петък"
-            time="17:00 - 18:00"
-            price="60 лв. / месец"
+            timetable="Всеки делничен ден"
+            time="19:00 - 20:00"
             coach="Николай Богданов"
             location='Казанлък, ОДК "Св. Иван Рилски"'
             locationLink={kazanlakHallMap}
             color="#991B1B"
           />
-          <GridImage imageUrl="lubo4.jpg" />
+          <GridImage imageUrl="Любомир-Богданов-Dracula-Open.jpg" />
         </SlideInFromRight>
         <SlideInFromLeft classes="flex w-full flex-col md:flex-row col-span-2">
           <GridTextBox
             title="Таекуондо - начинаещи"
             timetable="понделник, сряда и петък"
             time="17:30 - 18:30"
-            price="50 лв. / месец"
             coach="Любомир Богданов"
             location="Овощник, Жельо Манолов 58"
             locationLink={ovoshtnikHallMap}
             color="#101010"
           />
-          <GridImage imageUrl="marina_presi.jpg" />
+          <GridImage imageUrl="Марина-и-Пресияна-Събчеви.jpg" />
         </SlideInFromLeft>
         <SlideInFromRight classes="flex w-full flex-col md:flex-row col-span-2">
           <GridTextBox
             title="Тае-бо"
             timetable="понделник, сряда и петък"
             time="19:00 - 20:00"
-            price="50 лв. / месец"
             coach="Любомир Богданов"
             location="Овощник, Жельо Манолов 58"
             locationLink={ovoshtnikHallMap}
             color="#101010"
           />
-          <GridImage imageUrl="tae-bo.jpg" />
+          <GridImage imageUrl="Тренировка-Таебо.jpg" />
         </SlideInFromRight>
       </div>
     </div>

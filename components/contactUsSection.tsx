@@ -7,7 +7,9 @@ export default function ContactUsSection() {
     <div className="w-full grid grid-cols-1 md:grid-cols-2">
       <SlideInFromLeft classes="">
         <div
-          style={{ backgroundImage: `url('lubo3.jpg')` }}
+          style={{
+            backgroundImage: `url('Любомир-Богданов-Европейска-Олимпияда.jpg')`,
+          }}
           className="z-0 h-full min-h-[500px] w-full bg-cover bg-center"
         ></div>
       </SlideInFromLeft>

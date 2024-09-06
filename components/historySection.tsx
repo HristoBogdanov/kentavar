@@ -10,13 +10,13 @@ const para1 =
 
 const achievementList = [
   "Европейска титла на Цветелина Николова за кадети през 2013 г.",
-  "Бронзов медал на Христо Богданов за кадети през 2017 г.",
+  "Бронзов медал на Христо Богданов на Европейско първенство за кадети през 2017 г.",
   "Пето място на Любомир Богданов на Световното първенство 2018 г.",
   "Европейска титла на Христо Богданов за юноши и вицеевропейска титла на Любомир Богданов през 2019 г.",
+  "Христо Богданов е избран за най-успешен състезател по таекуондо на България през 2019 г.",
   "Бронзов медал на Илина Иванова от Европейско първенство за жени през 2021 г.",
   "Пето място на Любомир Богданов на Европейските олимпийски игри за мъже през 2023 г.",
   "Престижните звания „Треньор на годината“ за председателя на клуба Николай Богданов през 2018 и 2020 г., а „Спортисти на годината“ са Цветелина Николова (2013 г.), Любомир Богданов (2018 г.) и Илина Иванова (2021 г.).",
-  "Христо Богданов е избран за най-успешен състезател по таекуондо на България през 2019 г.",
 ];
 
 const para2 =
@@ -32,15 +32,27 @@ export default function HistorySection() {
   return (
     <div className="w-full flex flex-col lg:gap-20">
       <Heading firstTitle="нашата" secondTitle="история" />
-      <HistoryParagraph imagePath="group2.jpg" text={para1} />
+      <HistoryParagraph
+        imagePath="Клуб-Кентавър-групова-снимка.jpg"
+        text={para1}
+      />
       <HistoryReverseList
-        imagePath="ilina.jpeg"
+        imagePath="Илина-Иванова-Балканско-първенство.jpeg"
         text="Най-запомнящите се постижения за клуба са:"
         list={achievementList}
       />
-      <HistoryParagraph imagePath="ilina3.jpg" text={para2} />
-      <HistoryReverseParagraph imagePath="group3.jpg" text={para3} />
-      <HistoryParagraph imagePath="lubo5.jpg" text={para4} />
+      <HistoryParagraph
+        imagePath="Илина-Иванова-Европейско-първенство.jpg"
+        text={para2}
+      />
+      <HistoryReverseParagraph
+        imagePath="Клуб-Кентавър-Dupnitsa-Open.jpg"
+        text={para3}
+      />
+      <HistoryParagraph
+        imagePath="Любомир-Богданов-срещу-Италия.jpg"
+        text={para4}
+      />
     </div>
   );
 }

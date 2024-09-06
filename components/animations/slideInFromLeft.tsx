@@ -1,24 +1,24 @@
 "use client";
 
-import { useInView } from "@/hooks/useInView";
 import { motion } from "framer-motion";
 
-interface Props {
-  children: React.ReactNode;
-  classes: string;
-}
-
-export default function SlideInFromLeft({ children, classes }: Props) {
-  const { ref, inView } = useInView(0.5);
-
+export default function SlideInFromLeft({
+  classes,
+  children,
+}: {
+  classes: any;
+  children: any;
+}) {
   return (
     <motion.div
-      style={{
-        transform: inView ? "none" : "translateX(-200px)",
-        opacity: inView ? 1 : 0,
-        transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0s",
+      variants={{
+        hidden: { opacity: 0, x: -85 },
+        visible: { opacity: 1, x: 0 },
       }}
-      ref={ref}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 0.5 }}
       className={classes}
     >
       {children}

@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <ClientOnly>
       <SlideInFromBottom classes="w-full grid grid-cols-1 lg:grid-cols-2">
-        <div className="w-full h-[70vh] lg:h-[100vh] flex flex-col justify-center items-center">
+        <div className="w-full h-fit lg:h-[100vh] flex flex-col justify-center items-center">
           <div className="flex flex-col w-full h-full p-6 py-[23px] text-white justify-center bg-softBlack max-md:pt-16 uppercase text-[13vw] leading-[13vw] lg:text-[5vw] md:pl-20 gap-3 lg:leading-[5vw] font-black">
             <h1>Таекуондо клуб</h1>
             <h1 className="text-red-800">Кентавър</h1>
@@ -34,7 +34,7 @@ export default function Hero() {
           </div>
           {/* <div
           style={{
-            backgroundImage: `url('lubo3.jpg')`,
+            backgroundImage: `url('Любомир-Богданов-Европейска-Олимпияда.jpg')`,
           }}
           className="z-0 h-full w-full bg-cover bg-center bg-no-repeat flex flex-col items-center"
         ></div> */}
@@ -43,7 +43,9 @@ export default function Hero() {
         <div className="relative z-0 h-[70vh] lg:h-[100vh] w-full flex flex-col justify-center items-center">
           <div
             className="absolute inset-0 z-[-1] grayscale bg-cover bg-center"
-            style={{ backgroundImage: `url('ico.jpeg')` }}
+            style={{
+              backgroundImage: `url('Христо-Богданов-ЕОИ-Квалификация.jpeg')`,
+            }}
           />
           {/* <div className="relative w-[90%] max-w-[700px] aspect-[1.78/1] border-t-[5px] border-b-[5px] border-red-800">
             <ReactPlayer

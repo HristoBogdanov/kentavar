@@ -20,7 +20,7 @@ export default function NumbersSection() {
       </div>
       <SlideInFromRight classes="">
         <div
-          style={{ backgroundImage: `url('group.jpeg')` }}
+          style={{ backgroundImage: `url('Клуб-Кентавър.jpeg')` }}
           className="z-0 h-full min-h-[500px] w-full bg-cover bg-center bg-black opacity-100"
         ></div>
       </SlideInFromRight>

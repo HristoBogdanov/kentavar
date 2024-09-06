@@ -9,7 +9,7 @@ const oswald = Oswald({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "ТК Кентавър",
   icons: {
-    icon: "/logo.jpeg",
+    icon: "/Клуб-Кентавър-лого.jpeg",
   },
   description:
     "ТК Кентавър - тренировки по олимпийско таекуондо и тае-бо в град Казанлък и село Овощник с треньори Николай, Христо и Любомир Богданови и Любомир Събчев.",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "ТК Кентавър",
     images: [
       {
-        url: "/group.jpeg",
+        url: "/Клуб-Кентавър.jpeg",
         width: 800,
         height: 600,
       },

@@ -9,7 +9,6 @@ interface Props {
   title: string;
   timetable: string;
   time: string;
-  price: string;
   coach: string;
   location: string;
   locationLink: string;
@@ -20,7 +19,6 @@ export default function GridTextBox({
   title,
   timetable,
   time,
-  price,
   coach,
   location,
   locationLink,
@@ -42,10 +40,6 @@ export default function GridTextBox({
         <div className="flex text-xl items-center gap-3">
           <FaClock />
           <p>{time}</p>
-        </div>
-        <div className="flex text-xl items-center gap-3">
-          <IoIosPricetag />
-          <p>{price}</p>
         </div>
         <div className="flex text-xl items-center gap-3">
           <IoPerson />
