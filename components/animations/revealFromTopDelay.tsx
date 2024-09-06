@@ -19,7 +19,7 @@ export default function RevealDivBottomToTopDelay({
       }}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0.1 }}
       transition={{ duration: 0.5, delay: delay }}
       className={className}
     >
