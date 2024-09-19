@@ -4,6 +4,7 @@ import { FaPhone } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
 import { FaFacebook } from "react-icons/fa";
 import { MdPlace } from "react-icons/md";
+import { FaTiktok } from "react-icons/fa6";
 import { kazanlakHallMap, ovoshtnikHallMap } from "@/utils/mapsLinks";
 
 export default function Footer() {
@@ -54,12 +55,12 @@ export default function Footer() {
                 0899920506
               </Link>
               <Link
-                href="tel: 0897814122"
+                href="https://www.tiktok.com/@taekwondo.kentavar"
                 className="flex text-xl items-center gap-3 hover:text-red-800 transition-all duration-500"
                 target="_blank"
               >
-                <FaPhone />
-                0897814122
+                <FaTiktok />
+                @taekwondo.kentavar
               </Link>
               <Link
                 href="mailto: nkentavar@abv.bg"
