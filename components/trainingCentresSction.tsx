@@ -13,7 +13,7 @@ export default function TrainingCentresSction() {
       <Heading classes="pb-0 lg:pb-10" firstTitle="нашите" secondTitle="зали" />
       <TrainingCentre
         title="Зала в гр. Казанлък"
-        addressText="ж.к. Васил Левски 40А, 6103 Казанлък"
+        addressText='ОДК "Св Иван Рилски" ж.к. Васил Левски 40А, 6103 Казанлък'
         addressIframeLink={kazanlakMapsApi}
         addressMapsLink={kazanlakHallMap}
         image="/Зала-град-Казанлък.jpg"
