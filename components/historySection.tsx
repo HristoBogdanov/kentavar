@@ -30,7 +30,7 @@ const para4 =
 
 export default function HistorySection() {
   return (
-    <div className="w-full flex flex-col lg:gap-20">
+    <div className="w-full flex flex-col gap-10 lg:gap-20">
       <Heading firstTitle="нашата" secondTitle="история" />
       <HistoryParagraph
         imagePath="Клуб-Кентавър-групова-снимка.jpg"
