@@ -27,12 +27,6 @@ export default function Footer() {
               >
                 за нас
               </Link>
-              {/* <Link
-                className="hover:text-red-800 transition-all duration-500"
-                href="news"
-              >
-                новини
-              </Link> */}
               <Link
                 className="hover:text-red-800 transition-all duration-500"
                 href="contacts"
@@ -55,14 +49,6 @@ export default function Footer() {
                 0899920506
               </Link>
               <Link
-                href="https://www.tiktok.com/@taekwondo.kentavar"
-                className="flex text-xl items-center gap-3 hover:text-red-800 transition-all duration-500"
-                target="_blank"
-              >
-                <FaTiktok />
-                @taekwondo.kentavar
-              </Link>
-              <Link
                 href="mailto: nkentavar@abv.bg"
                 className="flex text-xl items-center gap-3 hover:text-red-800 transition-all duration-500"
                 target="_blank"
@@ -77,6 +63,14 @@ export default function Footer() {
               >
                 <FaFacebook />
                 Кентавър
+              </Link>
+              <Link
+                href="https://www.tiktok.com/@taekwondo.kentavar"
+                className="flex text-xl items-center gap-3 hover:text-red-800 transition-all duration-500"
+                target="_blank"
+              >
+                <FaTiktok />
+                @taekwondo.kentavar
               </Link>
             </ul>
           </div>

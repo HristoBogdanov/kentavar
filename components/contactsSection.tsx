@@ -45,14 +45,6 @@ export default function ContactsSection() {
                   0899920506
                 </Link>
                 <Link
-                  href="https://www.tiktok.com/@taekwondo.kentavar"
-                  className="flex items-center gap-3 hover:text-red-800 transition-all duration-500"
-                  target="_blank"
-                >
-                  <FaTiktok />
-                  @taekwondo.kentavar
-                </Link>
-                <Link
                   href="mailto: nkentavar@abv.bg"
                   className="flex items-center gap-3 hover:text-red-800 transition-all duration-500"
                   target="_blank"
@@ -67,6 +59,14 @@ export default function ContactsSection() {
                 >
                   <FaFacebook />
                   Кентавър
+                </Link>
+                <Link
+                  href="https://www.tiktok.com/@taekwondo.kentavar"
+                  className="flex items-center gap-3 hover:text-red-800 transition-all duration-500"
+                  target="_blank"
+                >
+                  <FaTiktok />
+                  @taekwondo.kentavar
                 </Link>
               </ul>
             </div>
