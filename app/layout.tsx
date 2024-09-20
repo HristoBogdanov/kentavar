@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "ТК Кентавър",
     description:
       "ТК Кентавър - тренировки по олимпийско таекуондо и тае-бо в град Казанлък и село Овощник с треньори Николай, Христо и Любомир Богданови и Любомир Събчев.",
-    url: "https://tk-centaur.vercel.app/",
+    url: "https://taekwondokentavar.bg",
     siteName: "ТК Кентавър",
     images: [
       {
