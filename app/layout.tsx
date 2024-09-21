@@ -7,7 +7,10 @@ import Footer from "@/components/footer";
 const oswald = Oswald({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Спортен клуб по Таекуондо "Кентавър"',
+  title: {
+    default: 'Спортен клуб по Таекуондо "Кентавър"',
+    template: "%s | TK Кентавър",
+  },
   description:
     "ТК Кентавър - тренировки по олимпийско таекуондо и тае-бо в град Казанлък и село Овощник с треньори Николай, Христо и Любомир Богданови и Любомир Събчев.",
   keywords:
@@ -22,8 +25,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/Клуб-Кентавър.jpeg",
-        width: 800,
-        height: 600,
+        width: 1200,
+        height: 630,
       },
     ],
     locale: "bg-BG",
