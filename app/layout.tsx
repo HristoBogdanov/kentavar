@@ -7,7 +7,7 @@ import Footer from "@/components/footer";
 const oswald = Oswald({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "ТК Кентавър",
+  title: 'Спортен клуб по Таекуондо "Кентавър"',
   icons: {
     icon: "/Клуб-Кентавър-лого.jpeg",
   },
@@ -16,11 +16,11 @@ export const metadata: Metadata = {
   keywords: "таекуондо, тренировки, спорт, тае-бо, Казанлък, Овощник",
   robots: "index, follow",
   openGraph: {
-    title: "ТК Кентавър",
+    title: 'Спортен клуб по Таекуондо "Кентавър"',
     description:
       "ТК Кентавър - тренировки по олимпийско таекуондо и тае-бо в град Казанлък и село Овощник с треньори Николай, Христо и Любомир Богданови и Любомир Събчев.",
     url: "https://taekwondokentavar.bg",
-    siteName: "ТК Кентавър",
+    siteName: 'Спортен клуб по Таекуондо "Кентавър"',
     images: [
       {
         url: "/Клуб-Кентавър.jpeg",
