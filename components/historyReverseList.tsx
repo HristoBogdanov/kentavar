@@ -10,7 +10,7 @@ interface Props {
 export default function HistoryReverseList({ imagePath, text, list }: Props) {
   return (
     <SlideInFromRight classes="w-full grid grid-cols-1 lg:grid-cols-2">
-      <div className="w-full bg-softBlack overflow-hidden h-full flex flex-col justify-center items-center border-l-8 border-red-800 p-10 lg:p-20">
+      <div className="w-full bg-softBlack h-full flex flex-col justify-center items-center border-l-8 border-red-800 p-10 lg:p-20">
         <p className="text-white text-2xl lg:text-3xl font-bold pb-10">
           {text}
         </p>
