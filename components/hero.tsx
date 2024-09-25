@@ -4,6 +4,7 @@ import Link from "next/link";
 import ReactPlayer from "react-player";
 import SlideInFromBottom from "./animations/slideInFromBottom";
 import ClientOnly from "./clientOnly";
+import { VIDEO_VIMEO_URL } from "@/lib/constants";
 
 export default function Hero() {
   return (
@@ -32,12 +33,6 @@ export default function Hero() {
               </Link>
             </div>
           </div>
-          {/* <div
-          style={{
-            backgroundImage: `url('Любомир-Богданов-Европейска-Олимпияда.jpg')`,
-          }}
-          className="z-0 h-full w-full bg-cover bg-center bg-no-repeat flex flex-col items-center"
-        ></div> */}
         </div>
 
         <div className="relative z-0 h-[70vh] lg:h-[100vh] w-full flex flex-col justify-center items-center">
@@ -47,9 +42,9 @@ export default function Hero() {
               backgroundImage: `url('Христо-Богданов-ЕОИ-Квалификация.jpeg')`,
             }}
           />
-          {/* <div className="relative w-[90%] max-w-[700px] aspect-[1.78/1] border-t-[5px] border-b-[5px] border-red-800">
+          <div className="relative w-[90%] max-w-[700px] aspect-[1.78/1] border-t-[5px] border-b-[5px] border-red-800">
             <ReactPlayer
-              url={"/videos/video2.mp4"}
+              url={VIDEO_VIMEO_URL}
               width={"100%"}
               height={"100%"}
               controls
@@ -57,7 +52,7 @@ export default function Hero() {
               playing
               muted
             />
-          </div> */}
+          </div>
         </div>
       </SlideInFromBottom>
     </ClientOnly>
